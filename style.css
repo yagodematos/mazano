@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Ubuntu';
+}
+
+.logo {
+    height: 90px;
+    width: 90px;
+}
+
+body {
+    background-color: whitesmoke;
+
+}
+
+main {
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 150px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.nav-menu {
+    width: 100vw;
+    top: 0;
+}
+
+.nav-menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-menu li {
+    list-style: none;
+    color: #6f33f9;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.inicio {
+    text-align: center;
+}
+
+
+.inicio img {
+    margin-top: 50px;
+}
+
+
+.inicio .sub-titulo {
+    font-weight: 100;
+}
+
+
+.form-control {
+    width: unset;
+    margin-bottom: 50px;
+    display: unset;
+}
+
+footer {
+    text-align: center;
+    color: gray;
+    font-size: medium;
+    padding: 2em 0;
+}
+
+
+.contato h1,h3 {
+    text-align: center;
+}
+
+.contato h3 {
+    font-weight: 100;
+}
+
+
+.contato .formas-contato {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 100px;
+}
+
+footer .redes {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+}
+
+
+.destaques {
+    padding: 75px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px 50px;
+}
+
+
+.noticias h1,h3 {
+    text-align: center;
+}
+
+.noticias h3 {
+    font-weight: 100;
+}
+
+.services h1,h3 {
+    text-align: center;
+}
+
+.services h3 {
+    font-weight: 100;
+}
+
+.trabalhos {
+    margin-top: 50px;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: auto auto auto;
+    gap: 75px;
+}
+
+.trabalhos img {
+    height: 140px;
+    width: 180px;
+}
